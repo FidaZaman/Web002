@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(58, 58, 58);
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 30%;
+    margin-top: 200px;
+    padding: 30px;
+    text-align: center; 
+    color: #fff;
+}
+.container .flip{
+    margin: auto;
+    background-color: rgb(204, 14, 230);
+    width: 170px;
+    height: 250px;
+    position: absolute;
+}
+
+.container .flip .icon i{
+    margin: 0;
+    margin-top: 40px;
+    transform:scale(2);
+    
+}
+.container .flip .title{
+    text-transform: uppercase;
+    font-family: 'oswald';
+    font-size: 15px;
+    margin: 28px;
+}
+.container .flip .dsc{
+    text-align: justify;
+    margin: 10px;
+}
+.container .flip2{
+    transition: 0.5s ease-in-out;
+}
+.container .flip2 .flip{
+    margin-top: 10px;
+    background-color: aqua;
+    transition: 0.5s ease-in-out;
+}
+.container .flip2:hover{
+    transform: rotate(10deg) translate(-150px,0);
+}

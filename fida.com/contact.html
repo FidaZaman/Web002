@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Me</title>
+</head>
+<body>
+  <header>
+    <nav>
+        <img src="assets/logo.png.png" alt="logo" title="this is our logo.">
+        <div class="menu">
+        <ul>
+            <a href="fida.html"> <li class="home" title="HOME">Home</li> </a>
+            <a href="#"> <li class="about" title="ABOUT">about</li>  </a>
+            <a href="contact.html"> <li id="active" class="contact" title="CONTUCT">contact</li> </a>
+            <a href="#"> <li class="live" title="LIVE">live</li> </a>
+        </ul>
+      </div>
+  </header>
+
+
+        <div class="body-cont">
+
+            <div class="header">
+              <h2>HAVE SOME QUESTION</h2>
+              <img src="assets/001-worldwide.png" alt="">
+              <a  href="https://goo.gl/maps/jjrspGsgQKQQn7oM6">DHAKA , BD</a> 
+
+             
+            </div>
+            <div class="form">
+              <img src="assets/Mail_Control-1.png" alt="">
+              <form action="" method="get">
+
+                <input type="text" placeholder="Name" required name="" id=""><br>
+                <input type="email" required placeholder="What's your email?"><br>
+                <textarea cols="3" rows="3" placeholder="Your Question" rows="3" cols="50"></textarea>
+                <input type="submit" value="SEND MESSAGE">
+
+              </form>
+            </div>
+        </div>
+
+
+<footer>
+
+
+  <footer>
+
+    <div class="btt">
+        <a href="#">🡅</a>
+    </div>
+
+
+    <div class="fot">
+        <h2>Mr Top Up</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officia minima quae, pariatur, unde cumque fuga, saepe quidem dignissimos soluta nesciunt accusamus error non cum id et nobis? Facilis, repellat.</p>
+    </div>
+    <div class="icon">
+        <a href="https://www.facebook.com/profile.php?id=100071049662834"><img src="assets/facebook.png" alt="facebook"></a>
+        <a href="https://www.youtube.com/channel/UChRjl5jdTZQVTkaScmcyvyQ"><img src="assets/youtube.png" alt="youtube"></a>
+        <a href="mailto:www.fidazaman@gmail.com"><img src="assets/email.png" alt="email"></a>
+        <a href="https://www.google.com/"><img src="assets/google-plus.png" alt=""></a>
+        <img src="assets/linkedin.png" alt="">
+    </div>
+
+</footer>
+</div>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "107432051671391");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+</footer>
+    
+</body>
+</html>
